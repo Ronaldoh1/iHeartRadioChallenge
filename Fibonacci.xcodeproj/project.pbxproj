@@ -13,7 +13,7 @@
 		B3AA5D4E1AD420F300CA51D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AA5D4D1AD420F300CA51D3 /* Images.xcassets */; };
 		B3AA5D511AD420F300CA51D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AA5D4F1AD420F300CA51D3 /* LaunchScreen.xib */; };
 		B3AA5D5D1AD420F300CA51D3 /* FibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AA5D5C1AD420F300CA51D3 /* FibonacciTests.m */; };
-		F2300C5A1E1EE948000981D7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2300C591E1EE948000981D7 /* TableViewController.m */; };
+		F2300C5A1E1EE948000981D7 /* FibSequenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2300C591E1EE948000981D7 /* FibSequenceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		B3AA5D561AD420F300CA51D3 /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AA5D5B1AD420F300CA51D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3AA5D5C1AD420F300CA51D3 /* FibonacciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciTests.m; sourceTree = "<group>"; };
-		F2300C581E1EE948000981D7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		F2300C591E1EE948000981D7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F2300C581E1EE948000981D7 /* FibSequenceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibSequenceTableViewController.h; sourceTree = "<group>"; };
+		F2300C591E1EE948000981D7 /* FibSequenceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibSequenceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				B3AA5D441AD420F300CA51D3 /* AppDelegate.h */,
 				B3AA5D451AD420F300CA51D3 /* AppDelegate.m */,
-				F2300C581E1EE948000981D7 /* TableViewController.h */,
-				F2300C591E1EE948000981D7 /* TableViewController.m */,
+				F2300C581E1EE948000981D7 /* FibSequenceTableViewController.h */,
+				F2300C591E1EE948000981D7 /* FibSequenceTableViewController.m */,
 				B3AA5D4A1AD420F300CA51D3 /* Main.storyboard */,
 				B3AA5D4D1AD420F300CA51D3 /* Images.xcassets */,
 				B3AA5D4F1AD420F300CA51D3 /* LaunchScreen.xib */,
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AA5D461AD420F300CA51D3 /* AppDelegate.m in Sources */,
-				F2300C5A1E1EE948000981D7 /* TableViewController.m in Sources */,
+				F2300C5A1E1EE948000981D7 /* FibSequenceTableViewController.m in Sources */,
 				B3AA5D431AD420F300CA51D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

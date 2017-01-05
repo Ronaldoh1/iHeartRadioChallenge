@@ -6,23 +6,21 @@
 //  Copyright © 2017 iHeartMedia. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "FibSequenceTableViewController.h"
 
-@interface TableViewController ()
+@interface FibSequenceTableViewController ()
 @property (nonatomic, strong) NSArray *numbers;
 @property int count;
 @end
 
-@implementation TableViewController
+@implementation FibSequenceTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     //Display initial 25 numbers
     self.count = 25;
-
     self.numbers = [self fibonacciSequenceFor:self.count];
-
 }
 
 #pragma mark - Table view data source
@@ -32,7 +30,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
     return self.numbers.count;
 }
 
